@@ -1,0 +1,95 @@
+
+.container {
+    background-color: hsl(233, 47%, 7%);
+    margin: 2em;
+    font-size: 15px;
+}
+
+.flex-box {
+    display: flex;
+    padding: 5em;
+    justify-content: center;
+}
+
+.text-box {
+    background-color: hsl(244, 38%, 16%);
+    padding: 2em;
+    max-width: 500px;
+    border-radius: 5px 0 0 5px;
+}
+
+.text-box h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.text-box p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+.text-box h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.stats {
+    display: flex;
+    text-transform: uppercase;
+}
+.stats p {
+    color: hsl(0, 0%, 100%);
+    margin-right: auto;
+    font-weight: 700;
+}
+.stats span {
+    display: block;
+    margin-top: 0.2em;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.image {
+    background: 
+    linear-gradient(rgba(170,92,219,0.5), rgba(170,92,219, 0.5)
+    ),
+     url('./images/image-header-desktop.jpg');
+    width: 100%;
+    background-size: cover;
+    max-width: 500px;
+    height: auto;
+    padding: initial;
+    border-radius: 0 5px 5px 0;
+    padding: 2em;
+}
+
+
+@media screen and (max-width:600px) {
+    .flex-box {
+        flex-direction: column-reverse;
+        padding: 2em;
+    }
+    .text-box {
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+        padding: 1em;
+        font-size: 0.6em;
+    }
+    .stats {
+        flex-direction: column;
+        
+    }
+    .stats p {
+        margin: 0;
+        padding-bottom: 1em;
+    }
+    .image {
+        
+        border-radius: 10px 10px 0 0;
+        height: 12em;
+        padding: initial;
+    }
+}
