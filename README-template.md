@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-[Design preview for the Stats preview card component coding challenge](./design/stats-preview-card.png)
+[Design preview for the Stats preview card component coding challenge](./design/stats-preview-card.png?raw=true)
 
 ### Links
 
